@@ -216,3 +216,55 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ==============================
+# Radiomics GUI project specific
+# ==============================
+
+# Medical image data - do not upload DICOM/RTSTRUCT files
+*.dcm
+*.DCM
+*.ima
+*.IMA
+DICOM/
+dicom/
+RTSTRUCT/
+rtstruct/
+RT/
+rt/
+
+# Radiomics outputs
+outputs/
+output/
+results/
+result/
+_gui_logs/
+logs/
+
+# Extracted radiomics result files
+*.xlsx
+*.xls
+*.csv
+*.tsv
+
+# Runtime settings / local paths
+local_config.json
+user_config.json
+last_run_config.json
+radiomics_settings_used_*.json
+
+# Temporary demo folders
+demo_data/
+sample_data/
+test_data/
+temp/
+tmp/
+
+# Conda / environment export files generated locally
+pyradiotest_env.yml
+pyradiotest_requirements.txt
+pip_list.txt
+python_path.txt
+pip_path.txt
+python_version.txt
+pyenv_version.txt
