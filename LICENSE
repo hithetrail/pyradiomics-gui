@@ -1,3 +1,7 @@
+This tool is intended for research demonstration purposes only and is not intended for clinical diagnosis or treatment decision-making.
+Feature extraction is based on PyRadiomics:
+van Griethuysen JJM et al. Computational Radiomics System to Decode the Radiographic Phenotype. Cancer Research. 2017;77(21):e104-e107. doi:10.1158/0008-5472.CAN-17-0339
+
 MIT License
 
 Copyright (c) 2026 SoEun Choi
